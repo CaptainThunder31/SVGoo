@@ -1,12 +1,6 @@
 <script setup>
-import {ref} from 'vue'
-const title = ref("SVGoo");
+  import Header from './components/header.vue'
 </script>
-
 <template>
-<h1>{{title}}</h1>
+  <Header />
 </template>
-
-<style scoped>
-
-</style>
